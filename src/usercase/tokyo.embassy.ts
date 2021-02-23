@@ -60,13 +60,11 @@ export class TokyoEmbassy {
             await this.login().catch((err) => {
                 return Promise.reject(err)
             })
-            await this.fetchOnlineAppointable(true).catch((err) => {
+            return await this.fetchOnlineAppointable(true).catch((err) => {
                 return Promise.reject(err)
             })
         } else if (result.status === 0) {
-
             return await this.getAppointable(result)
-
         } else {
             throw new Error('Fetch Online Appointable Failed!!!')
         }
@@ -86,7 +84,7 @@ export class TokyoEmbassy {
             await this.login().catch((err) => {
                 return Promise.reject(err)
             })
-            await this.fetchOfflineAppointable(true).catch((err) => {
+            return await this.fetchOfflineAppointable(true).catch((err) => {
                 return Promise.reject(err)
             })
         } else if (result.status === 0){
