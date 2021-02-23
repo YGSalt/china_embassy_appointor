@@ -6,14 +6,13 @@ import * as sound from 'sound-play';
 async function bootstrap() {
     const tokyo = new TokyoEmbassy()
     const time = parseInt(process.env.ROLLING_TIME) || 60000
-    
+    Util.playAlert();
     while (true) {
         const isAppointable = await tokyo.fetchAppointable().catch((err) => {
             console.log(err)
         })
         if (isAppointable) {
-            const filePath = path.join(path.dirname(__dirname), 'assets/alert.mp3')
-            sound.play(filePath);
+            Util.playAlert();
         }
         await Util.sleep(time)
     }
