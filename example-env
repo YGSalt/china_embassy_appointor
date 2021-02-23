@@ -1,0 +1,24 @@
+# 东京(档案号)
+TOKYO_APPOINTMENT_ID=
+
+# 东京(预设问题ID)
+# <option value="1193724fcf8041a4b627467826ebd77b">您父亲的姓名？</option>
+# <option value="012D083B05E8426D9EA5B5619D08B495">您父亲是哪里人？</option>
+# <option value="D1C3BB03AEAE4E06A4F6472E19458395">您父亲的现居住地？</option>
+# <option value="3B2DAA389AC848E6A96AEB9F49EA7589">您父亲的年龄？</option>
+# <option value="A1C082DEDC1F494DA92B18A00C3E1C67">您祖父名字是什么？</option>
+# <option value="49DFD15E45AF4041B7E43CF1D32D3E69">您祖母的姓是什么？</option>
+# <option value="5033802CB1CB462E8EC6E0E5C691CE14">您在哪个城市与另一半相遇？</option>
+# <option value="275FA3CA1C794097AC7E8FB83F4D4C90">您的父母亲在哪个地方相遇？</option>
+# <option value="C4EA96AE230B4F0DB052CE32564EC54C">您的第一份工作在哪个城市或城镇？</option>
+# <option value="5021F2B99FF8462DB453469F822593F8">您11岁的时候在哪所学校上学？</option>
+# <option value="337AF4698DD643729AEA4263ADCB1A7D">您8岁住在哪个街道？</option>
+# <option value="BC2A6234AF884C369121CA3B14823486">您小时候家里的电话号码是多少？</option>
+# <option value="B17AD00AC5CB4C649FAABB0F8F13CAF8">您第一辆车的品牌是什么？</option></select>
+TOKYO_APPOINTMENT_QUESTION_ID=
+
+# 东京(预设问题答案)
+TOKYO_APPOINTMENT_ANSWER=
+
+# 轮询时间
+ROLLING_TIME=
