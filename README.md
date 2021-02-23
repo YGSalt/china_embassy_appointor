@@ -1,4 +1,4 @@
 # china_embassy_appointor
 ## Usage   
-npm instal<br>
-npm start<br>
+1. npm instal<br>
+2. npm start<br>
