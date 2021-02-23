@@ -1,7 +1,5 @@
 import { Util } from './common/util'
 import { TokyoEmbassy } from './usercase/tokyo.embassy'
-import * as path from 'path';
-import * as sound from 'sound-play';
 
 async function bootstrap() {
     const tokyo = new TokyoEmbassy()
